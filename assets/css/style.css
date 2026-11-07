@@ -87,13 +87,11 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 @media (min-width: 1200px) { .hero-grid { grid-template-columns: 1fr 1.3fr; } }
 @media (max-width: 860px) { .hero-grid { grid-template-columns: 1fr; } }
 
-.hiring-banner { display: flex; align-items: center; justify-content: center; gap: 12px; padding: 14px 24px;
-  background: var(--forest); color: #fff; text-decoration: none; font-size: .95rem; font-weight: 500; }
+.hiring-banner { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 10px 24px;
+  background: var(--forest); color: #fff; text-decoration: none; font-size: .9rem; font-weight: 500; }
 .hiring-banner:hover { background: var(--forest-2); color: #fff; }
-.hiring-badge { background: var(--orange-bright); color: #fff; font-size: .75rem; font-weight: 700; text-transform: uppercase;
-  letter-spacing: .06em; padding: 4px 10px; border-radius: 4px; white-space: nowrap; }
-.hiring-arrow { font-size: 1.2rem; }
-@media (max-width: 640px) { .hiring-banner { flex-wrap: wrap; text-align: center; gap: 8px; font-size: .88rem; } }
+.hiring-arrow { font-size: 1.1rem; }
+@media (max-width: 640px) { .hiring-banner { text-align: center; font-size: .85rem; } }
 
 .stats { border-block: 1px solid var(--line); background: var(--surface); }
 .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
