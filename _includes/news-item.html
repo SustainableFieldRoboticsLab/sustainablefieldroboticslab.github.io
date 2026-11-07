@@ -1,0 +1,8 @@
+{% assign n = include.n %}
+<li class="news">
+  <time datetime="{{ n.date | date: '%Y-%m-%d' }}">{{ n.date | date: "%b %Y" }}</time>
+  <div>
+    <p class="news-title">{% if n.link and n.link != "" %}{% assign first = n.link | slice: 0 %}<a href="{% if first == '/' %}{{ n.link | relative_url }}{% else %}{{ n.link }}{% endif %}">{{ n.title }}</a>{% else %}{{ n.title }}{% endif %}</p>
+    <p>{{ n.text }}</p>
+  </div>
+</li>

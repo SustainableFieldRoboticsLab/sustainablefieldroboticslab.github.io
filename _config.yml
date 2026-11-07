@@ -1,0 +1,25 @@
+# Site-wide settings. Most lab content lives in the _data/ folder, not here.
+title: Sustainable Field Robotics Lab
+short_name: SFRL
+description: >-
+  The Sustainable Field Robotics Lab (SFRL) at Oregon State University develops intelligent,
+  energy-aware robots for agriculture and other demanding outdoor environments.
+url: "https://sustainablefieldroboticslab.github.io"
+baseurl: ""
+
+# Set to a photo path (e.g. /assets/img/hero.jpg) to replace the illustrated hero panel.
+hero_image: /assets/img/hero.jpg
+hero_alt: SFRL robot with articulated arm reaching into apple tree canopy in a commercial orchard
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - EDITING.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .pages.yml
+  - open-science.html

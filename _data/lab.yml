@@ -1,0 +1,41 @@
+# Core lab facts used across the site. Verify before launch (see the website brief).
+name: Sustainable Field Robotics Lab
+short: SFRL
+university: Oregon State University
+department: School of Mechanical, Industrial, and Manufacturing Engineering (MIME)
+college: College of Engineering
+location: Corvallis, Oregon
+email: sapkotar@oregonstate.edu
+office: Rogers Hall, 2000 SW Monroe Ave, Corvallis, OR 97331
+slogan: Agriculture first. Field robotics broader. Energy-aware everywhere.
+headline: Robots for productive, resilient, and lower-energy field operations.
+mission: >-
+  The Sustainable Field Robotics Lab develops intelligent, energy-aware robotic systems for agriculture
+  and other demanding outdoor environments. We combine machine vision, robotic manipulation, artificial
+  intelligence, and renewable-energy-aware design to reduce the energy, labor, and environmental cost of
+  field operations.
+mission_more: >-
+  Our primary focus is specialty-crop robotics for picking, weeding, pruning, thinning, pollination,
+  harvesting, and crop monitoring; our methods also extend to greenhouses, forestry, wildfire resilience,
+  and other real-world field settings.
+
+# Small stats shown on the home page. Update as they change.
+stats:
+  - value: "20+"
+    label: Peer-reviewed journal papers
+  - value: "5,500+"
+    label: Citations
+  - value: "2"
+    label: Invention disclosures
+  - value: "2027"
+    label: Lab opens at OSU
+
+links:
+  scholar: https://scholar.google.com/citations?user=MDeMB7sAAAAJ&hl=en
+  orcid: https://orcid.org/0000-0002-5417-6744
+  github: ""          # e.g. https://github.com/sfrl-osu
+  linkedin: https://www.linkedin.com/in/ranjan-sapkota-069645118
+  x: ""
+
+hiring: true
+hiring_banner: Now recruiting MS and PhD students, postdocs, and visiting scholars for 2027.

@@ -1,0 +1,76 @@
+---
+layout: page
+title: People & Partner Labs
+permalink: /people/
+eyebrow: People
+lede: ""
+description: The SFRL team, advisory network, partner labs, and open positions.
+---
+{% assign ppl = site.data.people %}{% assign d = ppl.director %}
+<section class="section">
+  <div class="wrap">
+    <h2 class="group-h">Director</h2>
+    <article class="card director">
+      <div class="director-id" style="text-align:center;">
+        {% include avatar.html person=d %}
+        <div>
+          <h3>{{ d.name }}</h3>
+          <p class="role">{{ d.role }} · {{ d.title }}</p>
+          <p class="muted">{{ d.affiliation }}</p>
+          <p class="tags">{% for k in d.keywords %}<span class="tag">{{ k }}</span>{% endfor %}</p>
+          <p class="links">{% if d.links.scholar != "" %}<a href="{{ d.links.scholar }}" title="Google Scholar"><svg viewBox="0 0 24 24" class="link-icon"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-2a5 5 0 1 0 0-10 5 5 0 0 0 0 10z"/><path d="M1 8l11-6 11 6v2H1z"/></svg>Scholar</a>{% endif %}{% if d.links.orcid != "" %}<a href="{{ d.links.orcid }}" title="ORCID"><svg viewBox="0 0 24 24" class="link-icon"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM8.5 7.3c.5 0 .8.4.8.8s-.4.8-.8.8-.8-.4-.8-.8.3-.8.8-.8zm0 2.6h.1v6.7H8.4V9.9h.1zm2.8 0h2.4c3 0 4.3 2.2 4.3 3.4 0 2.1-1.7 3.4-4.2 3.4h-2.5V9.9zm1.5 1.2v4.2h.8c2 0 2.9-1 2.9-2.1 0-1.2-.9-2.1-2.9-2.1h-.8z"/></svg>ORCID</a>{% endif %}{% if d.links.linkedin != "" %}<a href="{{ d.links.linkedin }}" title="LinkedIn"><svg viewBox="0 0 24 24" class="link-icon"><path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2zM8 19H5v-9h3v9zM6.5 8.25A1.75 1.75 0 1 1 8.3 6.5a1.78 1.78 0 0 1-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93a1.74 1.74 0 0 0-1.62 1.8V19h-3v-9h2.9v1.3a3.11 3.11 0 0 1 2.7-1.4c1.55 0 3.36.86 3.36 3.66V19z"/></svg>LinkedIn</a>{% endif %}{% if d.links.cv != "" %}<a href="{{ d.links.cv | relative_url }}">CV</a>{% endif %}</p>
+        </div>
+      </div>
+      <div class="director-body">
+        <p>{{ d.bio }}</p>
+        <div class="two-col tight">
+          <div><h4>Education</h4><ul>{% for e in d.education %}<li>{{ e }}</li>{% endfor %}</ul></div>
+          <div><h4>Honors</h4><ul>{% for a in d.awards %}<li>{{ a }}</li>{% endfor %}</ul></div>
+        </div>
+      </div>
+    </article>
+
+    <h2 class="group-h mt">Lab Members</h2>
+    <div class="grid-3">
+      {% for m in site.data.members %}
+      <article class="card person">
+        {% include avatar.html person=m %}
+        <h3>{% if m.link != "" %}<a href="{{ m.link }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}</h3>
+        <p class="role">{{ m.role }}</p>
+        <p class="muted">{{ m.affiliation }}</p>
+        <p>{{ m.contribution }}</p>
+        <p class="tags">{% for k in m.keywords %}<span class="tag">{{ k }}</span>{% endfor %}</p>
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="section-head mt"><h2 class="group-h">Advisory network & partner labs</h2><span class="muted">External faculty retain independent labs and appointments</span></div>
+    <div class="grid-3">
+      {% for a in ppl.advisors %}
+      <article class="card person">
+        {% include avatar.html person=a %}
+        <h3>{% if a.link != "" %}<a href="{{ a.link }}">{{ a.name }}</a>{% else %}{{ a.name }}{% endif %}</h3>
+        <p class="role">{{ a.role }}</p>
+        <p class="muted">{% if a.lab != "" %}{{ a.lab }} · {% endif %}{{ a.affiliation }}</p>
+        <p>{{ a.focus }}</p>
+      </article>
+      {% endfor %}
+    </div>
+
+    {% if site.data.alumni.size > 0 %}
+    <h2 class="group-h mt">Alumni</h2>
+    <ul class="alumni">{% for a in site.data.alumni %}<li><strong>{{ a.name }}</strong>, {{ a.role }}{% if a.now %} → {{ a.now }}{% endif %}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+</section>
+
+<section class="section alt" id="join">
+  <div class="wrap narrow">
+    <p class="eyebrow">Join SFRL</p>
+    <h2>Interested in joining the lab?</h2>
+    <p>We are looking for motivated researchers in field robotics, agricultural automation, machine perception, and related areas.</p>
+    <p>We have openings for {{ ppl.join.positions | join: ", " | replace: ", Visiting", ", and Visiting" }} candidates.</p>
+    <p>{{ ppl.join.how }}</p>
+    <a class="btn" href="mailto:{{ site.data.lab.email }}?subject=SFRL%20application">Email the director</a>
+  </div>
+</section>

@@ -1,0 +1,82 @@
+# Optional: lets non-coders edit lab content through forms at https://app.pagescms.org
+# (sign in with GitHub, pick this repo). Edits are saved as commits and the site rebuilds itself.
+media:
+  input: assets/img
+  output: /assets/img
+content:
+  - name: news
+    label: News
+    type: file
+    path: _data/news.yml
+    list: true
+    fields:
+      - { name: date, label: Date, type: date }
+      - { name: title, label: Title, type: string }
+      - { name: text, label: Text, type: text }
+      - { name: link, label: Link (optional), type: string }
+  - name: publications
+    label: Publications
+    type: file
+    path: _data/publications.yml
+    list: true
+    fields:
+      - name: type
+        label: Type
+        type: select
+        options: { values: [journal, conference, talk, patent] }
+      - { name: year, label: Year, type: number }
+      - { name: authors, label: Authors, type: string }
+      - { name: title, label: Title, type: string }
+      - { name: venue, label: Venue, type: string }
+      - { name: doi, label: DOI (without https://doi.org/), type: string }
+      - { name: url, label: Link, type: string }
+      - { name: code, label: Code link, type: string }
+      - { name: pdf, label: PDF path, type: string }
+      - { name: note, label: Award or note, type: string }
+      - { name: featured, label: Show on home page, type: boolean }
+  - name: projects
+    label: Projects
+    type: file
+    path: _data/projects.yml
+    list: true
+    fields:
+      - { name: title, label: Title, type: string }
+      - name: status
+        label: Status
+        type: select
+        options: { values: [active, planned, completed] }
+      - { name: summary, label: Summary, type: text }
+      - { name: partners, label: Partners, type: string }
+      - { name: funding, label: Funding, type: string }
+      - { name: site, label: Field site, type: string }
+      - { name: image, label: Image, type: image }
+      - { name: tags, label: Tags, type: string, list: true }
+      - name: outputs
+        label: Outputs
+        type: object
+        list: true
+        fields:
+          - { name: text, label: Text, type: string }
+          - { name: url, label: Link, type: string }
+  - name: members
+    label: Current members
+    type: file
+    path: _data/members.yml
+    list: true
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: role, label: Role, type: string }
+      - { name: affiliation, label: Affiliation, type: string }
+      - { name: photo, label: Photo, type: image }
+      - { name: keywords, label: Keywords, type: string, list: true }
+      - { name: contribution, label: One-sentence contribution, type: text }
+      - { name: link, label: Profile link, type: string }
+  - name: alumni
+    label: Alumni
+    type: file
+    path: _data/alumni.yml
+    list: true
+    fields:
+      - { name: name, label: Name, type: string }
+      - { name: role, label: Role in lab, type: string }
+      - { name: now, label: Now at, type: string }

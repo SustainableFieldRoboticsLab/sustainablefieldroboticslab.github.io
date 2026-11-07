@@ -1,0 +1,239 @@
+# Publications. Add a new entry at the top of the right section; order inside a year does not matter.
+# type: journal | conference | talk | patent
+# Optional fields: doi, url, pdf, code, featured (true shows it on the home page), note.
+# Lab members' names are bolded automatically (see _data/bold_authors.yml).
+
+- type: journal
+  year: 2026
+  authors: Sapkota, R., Whiting, M. D., Ahmed, D., & Karkee, M.
+  title: "Robotics for crop pollination: Recent advances and future direction"
+  venue: Journal of Field Robotics
+  doi: 10.1002/rob.70343
+  featured: true
+
+- type: journal
+  year: 2026
+  authors: Sapkota, R., Roumeliotis, K. I., & Karkee, M.
+  title: "AI agents vs. agentic AI: A conceptual taxonomy, applications and challenges"
+  venue: Information Fusion, 126, 103599
+  doi: 10.1016/j.inffus.2025.103599
+  featured: true
+
+- type: journal
+  year: 2026
+  authors: Raza, S., Sapkota, R., Karkee, M., & Emmanouilidis, C.
+  title: "TRiSM for agentic AI: A review of trust, risk, and security management in LLM-based agentic multi-agent systems"
+  venue: AI Open
+  doi: 10.1016/j.aiopen.2026.02.006
+
+- type: journal
+  year: 2026
+  authors: Roumeliotis, K. I., Sapkota, R., Karkee, M., & Tselikas, N. D.
+  title: "Agentic AI with orchestrator-agent trust: A modular visual classification framework with trust-aware orchestration and RAG-based reasoning"
+  venue: IEEE Access
+  doi: 10.1109/ACCESS.2026.3662282
+
+- type: journal
+  year: 2026
+  authors: Pugazhendi, P., Badgujar, C. M., Sapkota, R., Dhillon, R., & Ganapathy, M. R.
+  title: "Advances in agricultural fruit detection using You Only Look Once (YOLO) algorithm: A review"
+  venue: Smart Agricultural Technology, 101896
+  doi: 10.1016/j.atech.2026.101896
+
+- type: journal
+  year: 2026
+  authors: Soleimani, A., Abbaspour-Fard, M. H., Sapkota, R., & Sanaeifar, A.
+  title: "Artificial intelligence in agricultural machinery & robotics: A systematic review and future outlook"
+  venue: Applied Soft Computing, 114889
+  doi: 10.1016/j.asoc.2026.114889
+
+- type: journal
+  year: 2026
+  authors: Sapkota, R., Meng, Z., Churuvija, M., Du, X., Ma, Z., & Karkee, M.
+  title: "Comprehensive performance evaluation of YOLOv12, YOLO11, YOLOv10, YOLOv9 and YOLOv8 on detecting and counting fruitlet in complex orchard environments"
+  venue: Agriculture Communications
+  doi: 10.1016/j.agrcom.2026.100125
+
+- type: journal
+  year: 2025
+  authors: Sapkota, R., Qureshi, R., Hadi, M. U., Hassan, S. Z., Sadak, F., Shoman, M., et al., & Karkee, M.
+  title: "Multi-modal LLMs in agriculture: A comprehensive review"
+  venue: IEEE Transactions on Automation Science and Engineering
+  doi: 10.1109/TASE.2025.3612154
+  featured: true
+
+- type: journal
+  year: 2025
+  authors: Sapkota, R., & Karkee, M.
+  title: "Object detection with multimodal large vision-language models: An in-depth review"
+  venue: Information Fusion, 126, 103575
+  doi: 10.1016/j.inffus.2025.103575
+
+- type: journal
+  year: 2025
+  authors: Sapkota, R., Flores-Calero, M., Qureshi, R., Badgujar, C., Nepal, U., Poulose, A., et al., & Karkee, M.
+  title: "YOLO advances to its genesis: A decadal and comprehensive review of the You Only Look Once (YOLO) series"
+  venue: Artificial Intelligence Review, 58(9), 274
+  doi: 10.1007/s10462-025-11253-3
+
+- type: journal
+  year: 2025
+  authors: Bhattarai, U., Sapkota, R., Kshetri, S., Mo, C., Whiting, M. D., Zhang, Q., & Karkee, M.
+  title: "A vision-based robotic system for precision pollination of apples"
+  venue: Computers and Electronics in Agriculture, 234, 110158
+  doi: 10.1016/j.compag.2025.110158
+
+- type: journal
+  year: 2025
+  authors: Churuvija, M., Sapkota, R., Ahmed, D., & Karkee, M.
+  title: "A pose-versatile imaging system for comprehensive 3D modeling of planar-canopy fruit trees for automated orchard operations"
+  venue: Computers and Electronics in Agriculture, 230, 109899
+  doi: 10.1016/j.compag.2025.109899
+
+- type: journal
+  year: 2025
+  authors: Ahmed, D., Sapkota, R., Churuvija, M., & Karkee, M.
+  title: "Estimating optimal crop-load for individual branches in apple tree canopies using YOLOv8"
+  venue: Computers and Electronics in Agriculture, 229, 109697
+  doi: 10.1016/j.compag.2024.109697
+
+- type: journal
+  year: 2025
+  authors: Meng, Z., Du, X., Sapkota, R., Ma, Z., & Cheng, H.
+  title: "YOLOv10-pose and YOLOv9-pose: Real-time strawberry stalk pose detection models"
+  venue: Computers in Industry, 165, 104231
+  doi: 10.1016/j.compind.2024.104231
+
+- type: journal
+  year: 2024
+  authors: Sapkota, R., Ahmed, D., & Karkee, M.
+  title: "Comparing YOLOv8 and Mask R-CNN for instance segmentation in complex orchard environments"
+  venue: Artificial Intelligence in Agriculture, 13, 84-99
+  doi: 10.1016/j.aiia.2024.07.001
+  featured: true
+
+- type: journal
+  year: 2024
+  authors: Sapkota, R., Ahmed, D., Churuvija, M., & Karkee, M.
+  title: "Immature green apple detection and sizing in commercial orchards using YOLOv8 and shape fitting techniques"
+  venue: IEEE Access, 12, 43436-43452
+  doi: 10.1109/ACCESS.2024.3378261
+
+- type: journal
+  year: 2024
+  authors: Sapkota, R., Meng, Z., & Karkee, M.
+  title: "Synthetic meets authentic: Leveraging LLM generated datasets for YOLO11 and YOLOv10-based apple detection through machine vision sensors"
+  venue: Smart Agricultural Technology, 100614
+  doi: 10.1016/j.atech.2024.100614
+
+- type: journal
+  year: 2024
+  authors: Kshetri, S., Bhattarai, U., Paudel, A., Sapkota, R., Zhang, Q., & Karkee, M.
+  title: "Automated system for continuous green shoot thinning in vineyards"
+  venue: Journal of the ASABE, 67(3), 729-741
+  doi: 10.13031/ja.15586
+
+- type: journal
+  year: 2023
+  authors: Sapkota, R., Stenger, J., Ostlie, M., & Flores, P.
+  title: "Towards reducing chemical usage for weed control in agriculture using UAS imagery analysis and computer vision techniques"
+  venue: Scientific Reports, 13(1), 6548
+  doi: 10.1038/s41598-023-33042-0
+  note: Sustainability Top 100 article of 2023
+
+- type: journal
+  year: 2023
+  authors: You, A., Parayil, N., Krishna, J. G., Bhattarai, U., Sapkota, R., Ahmed, D., et al., & Davidson, J. R.
+  title: "Semiautonomous precision pruning of upright fruiting offshoot orchard systems: An integrated approach"
+  venue: IEEE Robotics & Automation Magazine, 30(4), 10-19
+  doi: 10.1109/MRA.2023.3309098
+
+# ---- Peer-reviewed conference papers ----
+- type: conference
+  year: 2025
+  authors: Raza, S., Sapkota, R., Karkee, M., & Emmanouilidis, C.
+  title: "Trust, risk, and security in agentic AI: A short survey"
+  venue: NeurIPS 2025 Workshop on Bridging Language, Agent, and World Models for Reasoning and Planning
+  url: https://openreview.net/forum?id=kpRjNGEhLk
+
+- type: conference
+  year: 2025
+  authors: Sapkota, R., & Karkee, M.
+  title: "Improved YOLOv12 with LLM-generated synthetic data for enhanced apple detection and benchmarking against YOLO11 and YOLOv10"
+  venue: IFAC-PapersOnLine
+  doi: 10.1016/j.ifacol.2025.11.793
+
+- type: conference
+  year: 2023
+  authors: Khanal, S. R., Sapkota, R., Ahmed, D., Bhattarai, U., & Karkee, M.
+  title: "Machine vision system for early-stage apple flowers and flower clusters detection for precision thinning and pollination"
+  venue: IFAC-PapersOnLine, 56(2), 8914-8919
+  doi: 10.1016/j.ifacol.2023.10.096
+
+# ---- Oral presentations ----
+- type: talk
+  year: 2024
+  authors: Sapkota, R., Ahmed, D., & Karkee, M.
+  title: "Comparing YOLOv8 and Mask R-CNN for object segmentation in complex orchard environments"
+  venue: Artificial Intelligence in Agriculture Conference Workshop, Texas A&M University, College Station, TX
+
+- type: talk
+  year: 2024
+  authors: Sapkota, R., & Karkee, M.
+  title: "Partial fruitlet cutting of apples for robotic fruit thinning"
+  venue: International Conference on Precision Agriculture (ICPA), Manhattan, KS
+
+- type: talk
+  year: 2024
+  authors: Sapkota, R., & Karkee, M.
+  title: "Synthetic meets authentic: Leveraging text-to-image generated datasets for YOLOv10 based apple detection in orchard environments"
+  venue: ASABE Annual International Meeting, Anaheim, CA
+
+- type: talk
+  year: 2024
+  authors: Sapkota, R., Ahmed, D., Churuvija, M., Kshetri, S., & Karkee, M.
+  title: "End-effector techniques for robotic fruitlet thinning in commercial orchards"
+  venue: ASABE Annual International Meeting, Anaheim, CA
+
+- type: talk
+  year: 2024
+  authors: Ahmed, D., Sapkota, R., Churuvija, M., Whiting, M., & Karkee, M.
+  title: "Slicing-aided hyper inference for enhanced fruit bud detection and counting in apple orchards during dormant season"
+  venue: ASABE Annual International Meeting, Anaheim, CA
+
+- type: talk
+  year: 2023
+  authors: Sapkota, R., Ahmed, D., Khanal, S. R., Bhattarai, U., Mo, C., Whiting, M., & Karkee, M.
+  title: "Robotic pollination of apples in commercial orchards"
+  venue: IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Detroit, MI
+
+- type: talk
+  year: 2023
+  authors: Sapkota, R., Ahmed, D., Churuvija, M., & Karkee, M.
+  title: "Green fruit detection and decision support system for robotic green fruit thinning"
+  venue: ASABE Annual International Meeting, Omaha, NE
+
+- type: talk
+  year: 2022
+  authors: Bhattarai, U., Sapkota, R., Zhang, Q., Whiting, M., & Karkee, M.
+  title: "Prototype robot for crop pollination in commercial orchards"
+  venue: CIGR World Congress, Kyoto, Japan
+
+- type: talk
+  year: 2021
+  authors: Sapkota, R., & Flores, J.
+  title: "Using UAV imagery and computer vision to support site-specific weed management in corn"
+  venue: ASA, CSSA, SSSA International Annual Meeting, Salt Lake City, UT
+
+# ---- Invention disclosures ----
+- type: patent
+  year: 2025
+  authors: Cornell University
+  title: "Air-assisted occlusion clearing end effector for vision-guided robotic tree fruit operations"
+  venue: Invention disclosure, docket 12059
+
+- type: patent
+  year: 2024
+  authors: Washington State University
+  title: "Robotic system for king-flower pollination in commercial orchards"
+  venue: Invention disclosure 24-00076

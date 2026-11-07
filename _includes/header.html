@@ -1,0 +1,21 @@
+{% comment %}Open Science tab commented out — re-enable when lab has released assets{% endcomment %}
+{% assign nav = "Projects|/projects/,Gallery|/gallery/,People|/people/,Publications|/publications/,News|/news/,Contact|/contact/" | split: "," %}
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      {% include logo.svg %}
+      <span><strong>{{ site.data.lab.short }}</strong><small>{{ site.data.lab.name }}</small></span>
+    </a>
+    <button class="menu-btn" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr">Menu</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <nav id="site-nav" aria-label="Main">
+      <ul>
+      {% for item in nav %}{% assign parts = item | split: "|" %}
+        <li><a href="{{ parts[1] | relative_url }}"{% if page.url == parts[1] %} aria-current="page"{% endif %}>{{ parts[0] }}</a></li>
+      {% endfor %}
+        <li><a class="btn btn-small" href="{{ '/people/#join' | relative_url }}">Join SFRL</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

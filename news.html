@@ -1,0 +1,10 @@
+---
+layout: page
+title: News
+permalink: /news/
+eyebrow: News
+lede: ""
+---
+<section class="section"><div class="wrap narrow"><ul class="news-list">
+{% for n in site.data.news %}{% include news-item.html n=n %}{% endfor %}
+</ul></div></section>

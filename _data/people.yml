@@ -1,0 +1,108 @@
+# People page. photo is optional: put the image in assets/img/people/ and write its path.
+# Publish roles, photos, and bios only with each person's consent. No student emails.
+
+director:
+  name: Ranjan Sapkota
+  role: Founding Director
+  title: Assistant Professor of Field Robotics
+  affiliation: Oregon State University · MIME
+  photo: /assets/img/people/ranjan-sapkota.jpg
+  keywords: [field robotics, machine vision, robotic manipulation, agentic AI]
+  bio: >-
+    Ranjan Sapkota is an incoming Assistant Professor of Field Robotics in the School of Mechanical,
+    Industrial, and Manufacturing Engineering at Oregon State University. He is completing a PhD in
+    Biological and Environmental Engineering at Cornell University, following doctoral study at
+    Washington State University. His work joins field robotics, machine vision, robotic manipulation,
+    precision agriculture, vision-language-action models, large language models, and agentic AI systems.
+  education:
+    - PhD, Biological and Environmental Engineering, Cornell University (2025-2026); transferred from Washington State University (2022-2025)
+    - MS, Agricultural and Biological Engineering, North Dakota State University (2022)
+    - B.Tech, Electrical and Electronics Engineering, Uttarakhand Technical University, India (2019)
+  awards:
+    - Outstanding Reviewer, ASABE Technical Communities (2025)
+    - Arnie and Marta Kegel Fellowship, Washington State University (2024)
+    - Three Minute Thesis winner, WSU Biological Systems Engineering (2024)
+    - Finalist and 3rd place, ASABE Ethics Essay Competition (2024)
+    - Sustainability Top 100 article of 2023, Scientific Reports
+    - Most downloaded paper, Information Fusion (Elsevier)
+    - Top cited paper, Artificial Intelligence in Agriculture (Elsevier)
+    - Fan's Favorite, ASABE 1-Minute Video Competition (2021)
+  links:
+    scholar: https://scholar.google.com/citations?user=MDeMB7sAAAAJ&hl=en
+    orcid: https://orcid.org/0000-0002-5417-6744
+    linkedin: https://www.linkedin.com/in/ranjan-sapkota-069645118
+    cv: ""
+
+# Senior advisors and partner labs (external faculty keep their own labs and appointments).
+advisors:
+  - name: Manoj Karkee
+    role: Senior Faculty Advisor
+    title: Professor · Biological and Environmental Engineering
+    affiliation: Cornell University
+    lab: AgRobotics Lab
+    photo: /assets/img/people/manoj-karkee.jpg
+    focus: Strategic mentorship · joint research · student co-advising
+    link: https://agrobotics.cals.cornell.edu/
+  - name: William J. Beksi
+    role: Senior Faculty Advisor
+    title: Associate Professor · Computer Science
+    affiliation: University of Texas at Dallas
+    lab: PRISM Laboratory
+    photo: /assets/img/people/william-beksi.jpg
+    focus: Robot perception · learning · autonomous systems
+    link: https://www.utdallas.edu/~wjbeksi/
+  - name: Matthew D. Whiting
+    role: Senior Faculty Advisor
+    title: Professor · Horticulture
+    affiliation: Washington State University
+    lab: CPAAS
+    photo: /assets/img/people/matthew-whiting.jpg
+    focus: Tree-fruit horticulture · orchard trials · grower relevance
+    link: ""
+  - name: Martin Churuvija
+    role: Affiliated Faculty Collaborator
+    title: Assistant Professor · Smart Machine and Robotics Systems Engineering
+    affiliation: Washington State University
+    lab: BSE
+    photo: /assets/img/people/martin-churuvija.jpg
+    focus: Precision and automated agricultural machinery
+    link: ""
+  - name: Ramesh Bist
+    role: Affiliated Faculty Collaborator
+    title: Assistant Professor · Biological and Agricultural Engineering
+    affiliation: North Carolina State University
+    lab: AIR Lab
+    photo: /assets/img/people/ramesh-bist.jpg
+    focus: Agricultural intelligence and robotics
+    link: https://bae.ncsu.edu/people/ramesh-bist/
+  - name: Manisha Parajuli
+    role: Affiliated Faculty Collaborator
+    title: Assistant Professor · Forestry
+    affiliation: Kentucky State University
+    lab: Cooperative Extension
+    photo: /assets/img/people/manisha-parajuli.jpg
+    focus: Forestry · remote sensing · precision agriculture
+    link: https://www.kysu.edu/directory/faculty-staff/manisha-parajuli.php
+  - name: Konstantinos I. Roumeliotis
+    role: Affiliated Faculty Collaborator
+    title: Adjunct Professor & Postdoctoral Researcher
+    affiliation: University of Peloponnese, Greece
+    lab: ""
+    photo: /assets/img/people/konstantinos-roumeliotis.jpg
+    focus: Applied AI · deep learning · multimodal learning · agentic AI
+    link: ""
+
+join:
+  positions: [MS, PhD, Postdoc, Visiting Scholar]
+  text: >-
+    SFRL is seeking motivated MS and PhD students, postdoctoral scholars, and visiting scholars interested
+    in sustainable field robotics, agricultural automation, machine perception, robotic manipulation,
+    physical AI, and renewable-energy-aware autonomous systems. We welcome applicants from robotics,
+    mechanical engineering, electrical and computer engineering, computer science, agricultural
+    engineering, horticulture, and related fields.
+  how: >-
+    Email a CV, a short statement of interests, and links to relevant projects, code, or publications.
+    Student admission and hiring remain subject to OSU and funding procedures.
+  culture: >-
+    We value careful field work, open science, and a lab where people from every background can do their
+    best research. New members are mentored on experimental design, safe field deployment, and writing.

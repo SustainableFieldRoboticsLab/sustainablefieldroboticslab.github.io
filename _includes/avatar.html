@@ -1,0 +1,2 @@
+{% assign person = include.person %}
+{% if person.photo and person.photo != "" %}<img class="avatar" src="{{ person.photo | relative_url }}" alt="Portrait of {{ person.name }}" loading="lazy">{% else %}{% assign names = person.name | split: " " %}<span class="avatar avatar-initials" aria-hidden="true">{{ names.first | slice: 0 }}{{ names.last | slice: 0 }}</span>{% endif %}

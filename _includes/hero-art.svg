@@ -1,0 +1,33 @@
+<svg class="hero-art" viewBox="0 0 560 440" role="img" aria-label="Illustration of a field robot working between orchard rows under the sun">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--sky-1)"/><stop offset="1" stop-color="var(--sky-2)"/></linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="var(--ground-1)"/><stop offset="1" stop-color="var(--ground-2)"/></linearGradient>
+  </defs>
+  <rect width="560" height="440" rx="24" fill="url(#sky)"/>
+  <circle cx="430" cy="96" r="40" fill="var(--orange-bright)" opacity=".9"/>
+  <g stroke="var(--orange-bright)" stroke-width="3" stroke-linecap="round" opacity=".55"><path d="M430 34v-14M430 172v-14M368 96h-14M506 96h-14M386 52l-10-10M484 150l-10-10M386 140l-10 10M484 42l-10 10"/></g>
+  <path d="M0 250 Q140 215 280 238 T560 228 V440 H0z" fill="url(#ground)"/>
+  <g fill="none" stroke="var(--row)" stroke-width="2" opacity=".55">
+    <path d="M280 250 L40 440"/><path d="M280 250 L160 440"/><path d="M280 250 L400 440"/><path d="M280 250 L520 440"/>
+  </g>
+  <g fill="var(--tree)">
+    <g><rect x="196" y="236" width="3" height="18" fill="var(--trunk)"/><circle cx="197" cy="230" r="12"/></g>
+    <g><rect x="358" y="236" width="3" height="18" fill="var(--trunk)"/><circle cx="360" cy="230" r="12"/></g>
+    <g><rect x="152" y="262" width="4" height="26" fill="var(--trunk)"/><circle cx="154" cy="252" r="18"/></g>
+    <g><rect x="402" y="262" width="4" height="26" fill="var(--trunk)"/><circle cx="404" cy="252" r="18"/></g>
+    <g><rect x="92" y="300" width="6" height="40" fill="var(--trunk)"/><circle cx="95" cy="284" r="28"/><circle cx="84" cy="278" r="4" fill="var(--fruit)"/><circle cx="106" cy="290" r="4" fill="var(--fruit)"/></g>
+    <g><rect x="460" y="300" width="6" height="40" fill="var(--trunk)"/><circle cx="463" cy="284" r="28"/><circle cx="452" cy="292" r="4" fill="var(--fruit)"/><circle cx="474" cy="276" r="4" fill="var(--fruit)"/></g>
+  </g>
+  <g transform="translate(222 300)">
+    <rect x="18" y="-34" width="60" height="6" rx="2" fill="var(--panel)"/>
+    <path d="M24 -28 L48 -40 L72 -28" fill="none" stroke="var(--panel)" stroke-width="2"/>
+    <rect x="0" y="0" width="110" height="46" rx="10" fill="var(--forest)"/>
+    <rect x="12" y="10" width="30" height="14" rx="3" fill="var(--sky-1)" opacity=".9"/>
+    <path d="M80 4 L118 -30 L146 -18" fill="none" stroke="var(--arm)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="80" cy="4" r="6" fill="var(--arm)"/><circle cx="118" cy="-30" r="5" fill="var(--arm)"/>
+    <path d="M146 -18 l8 -8 M146 -18 l10 2" stroke="var(--arm)" stroke-width="4" stroke-linecap="round"/>
+    <rect x="44" y="-24" width="6" height="24" fill="var(--arm)"/>
+    <circle cx="22" cy="50" r="13" fill="var(--wheel)"/><circle cx="88" cy="50" r="13" fill="var(--wheel)"/>
+    <circle cx="22" cy="50" r="4" fill="var(--sky-2)"/><circle cx="88" cy="50" r="4" fill="var(--sky-2)"/>
+  </g>
+</svg>

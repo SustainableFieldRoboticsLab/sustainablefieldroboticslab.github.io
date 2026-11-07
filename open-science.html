@@ -1,0 +1,25 @@
+---
+layout: page
+title: Open Science
+permalink: /open-science/
+eyebrow: Open Science
+lede: Code, datasets, and simulation assets that others can use, cite, and build on.
+---
+{% assign os = site.data.open_science %}
+<section class="section">
+  <div class="wrap">
+    <div class="grid-3">
+      {% for i in os.items %}
+      <article class="card">
+        <p class="status">{{ i.kind | capitalize }}{% if i.status %} · {{ i.status }}{% endif %}</p>
+        <h3>{% if i.url != "" %}<a href="{{ i.url }}">{{ i.name }}</a>{% else %}{{ i.name }}{% endif %}</h3>
+        <p>{{ i.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+    <div class="callout mt">
+      <h2>How we release</h2>
+      <ul>{% for p in os.principles %}<li>{{ p }}</li>{% endfor %}</ul>
+    </div>
+  </div>
+</section>

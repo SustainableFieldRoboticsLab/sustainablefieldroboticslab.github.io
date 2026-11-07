@@ -1,0 +1,5 @@
+# Former members. Same fields as members.yml plus "now" (current position), e.g.
+# - name: Jane Doe
+#   role: MS Student (2027-2029)
+#   now: Robotics Engineer, John Deere
+[]

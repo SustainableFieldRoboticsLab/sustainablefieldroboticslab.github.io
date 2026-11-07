@@ -1,0 +1,110 @@
+---
+layout: default
+title: Home
+---
+{% assign lab = site.data.lab %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="eyebrow">{{ lab.university }} · {{ lab.department | split: "(" | last | remove: ")" }}</p>
+      <h1>{{ lab.headline }}</h1>
+      <p class="lede">{{ lab.mission }}</p>
+      <div class="actions">
+        <a class="btn" href="#research">Explore research</a>
+        <a class="btn btn-ghost" href="{{ '/people/#join' | relative_url }}">Join SFRL</a>
+      </div>
+    </div>
+    <figure class="hero-media">
+      {% if site.hero_image != "" %}
+        <img src="{{ site.hero_image | relative_url }}" alt="{{ site.hero_alt }}">
+      {% else %}
+        {% include hero-art.svg %}
+      {% endif %}
+    </figure>
+  </div>
+</section>
+
+<section class="stats" aria-label="Lab at a glance">
+  <div class="wrap stats-grid">
+    {% for s in lab.stats %}<div class="stat"><span class="stat-v">{{ s.value }}</span><span class="stat-l">{{ s.label }}</span></div>{% endfor %}
+  </div>
+</section>
+
+<section class="drone-strip" aria-label="Drone flyover of orchard">
+  <video autoplay muted loop playsinline>
+    <source src="{{ '/assets/img/drone-timelapse.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <div class="caption">Aerial view · autonomous robot navigating commercial apple orchard rows</div>
+</section>
+
+{% assign r = site.data.research %}
+<section class="section" id="research">
+  <div class="wrap">
+    <div class="section-head"><h2>What we work on</h2></div>
+    <p class="slogan-big">{{ lab.slogan }}</p>
+    <div class="grid-4">
+      {% for p in r.pillars %}
+      <article class="card pillar">
+        <span class="icon">{% include icon.html name=p.icon %}</span>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap two-col">
+    <div>
+      <h2>Field operations</h2>
+      <p>{{ r.operations }}</p>
+      <h2 class="mt">Where we deploy</h2>
+      <p>{{ r.settings }}</p>
+    </div>
+    <div>
+      <h2>Method stack</h2>
+      <dl class="methods">
+        {% for m in r.methods %}<div><dt>{{ m.name }}</dt><dd>{{ m.detail }}</dd></div>{% endfor %}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="section alt">
+  <div class="wrap">
+    <div class="section-head"><h2>Featured projects</h2><a href="{{ '/projects/' | relative_url }}">All projects →</a></div>
+    <div class="grid-2">
+      {% assign featured = site.data.projects | where: "status", "active" %}
+      {% for pr in featured limit: 2 %}{% include project-card.html pr=pr %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    {% if site.data.news.size > 0 %}
+    <div class="two-col">
+      <div>
+        <div class="section-head"><h2>Latest news</h2><a href="{{ '/news/' | relative_url }}">All news →</a></div>
+        <ul class="news-list">
+          {% for n in site.data.news limit: 4 %}{% include news-item.html n=n %}{% endfor %}
+        </ul>
+      </div>
+      <div>
+        <div class="section-head"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All →</a></div>
+        <ol class="pubs compact">
+          {% assign fp = site.data.publications | where: "featured", true %}
+          {% for p in fp limit: 4 %}{% include pub.html p=p %}{% endfor %}
+        </ol>
+      </div>
+    </div>
+    {% else %}
+    <div class="section-head"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">All →</a></div>
+    <ol class="pubs compact">
+      {% assign fp = site.data.publications | where: "featured", true %}
+      {% for p in fp limit: 6 %}{% include pub.html p=p %}{% endfor %}
+    </ol>
+    {% endif %}
+  </div>
+</section>

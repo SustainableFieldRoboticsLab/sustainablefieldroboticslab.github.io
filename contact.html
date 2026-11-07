@@ -1,0 +1,28 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+eyebrow: Contact
+lede: ""
+---
+{% assign lab = site.data.lab %}
+<section class="section">
+  <div class="wrap two-col">
+    <div class="card">
+      <h2>Reach the lab</h2>
+      <dl class="facts">
+        <div><dt>Email</dt><dd><a href="mailto:{{ lab.email }}">{{ lab.email }}</a></dd></div>
+        <div><dt>Department</dt><dd>{{ lab.department }}</dd></div>
+        <div><dt>College</dt><dd>{{ lab.college }}, {{ lab.university }}</dd></div>
+        <div><dt>Location</dt><dd>{{ lab.location }}</dd></div>
+        <div><dt>Office</dt><dd>{{ lab.office }}</dd></div>
+      </dl>
+    </div>
+    <div class="card">
+      <h2>Collaborate with us</h2>
+      <p>Growers, industry partners, and researchers: send a short note describing the field problem, your timeline, and what each side would contribute. We reply to every serious inquiry.</p>
+      <a class="btn" href="mailto:{{ lab.email }}?subject=SFRL%20collaboration">Start a conversation</a>
+      <p class="mt-s">Prospective students, please see <a href="{{ '/people/#join' | relative_url }}">Join SFRL</a>.</p>
+    </div>
+  </div>
+</section>

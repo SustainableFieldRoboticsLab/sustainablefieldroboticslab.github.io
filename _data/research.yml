@@ -1,0 +1,45 @@
+# Research pillars (Research page and home page).
+pillars:
+  - title: Sustainable autonomy
+    icon: sun
+    summary: Designing robots that run on renewable power and use energy efficiently, so they can work in the field for an entire growing season without interruption.
+  - title: Perception and intelligence
+    icon: eye
+    summary: Teaching machines to see and reason in outdoor environments where lighting, occlusion, and weather change constantly, using camera, depth, and LiDAR data alongside modern vision-language models.
+  - title: Precision field manipulation
+    icon: hand
+    summary: Building end effectors and motion plans that can handle fruit, flowers, shoots, and branches without bruising or breaking them.
+  - title: Resilient deployment
+    icon: mountain
+    summary: Testing and hardening systems so they work reliably across orchards, vineyards, greenhouses, forests, and other demanding outdoor conditions.
+
+operations: >-
+  Our primary focus is specialty crops, including fruit, vegetables, and nursery stock,
+  where much of the work is still done by hand. We develop robotic systems for picking
+  and harvesting, weeding, pruning, green-fruit thinning, pollination, and crop
+  monitoring and yield estimation.
+
+methods:
+  - name: Machine vision
+    detail: Detection and segmentation of fruit, canopy, and obstacles using RGB-D cameras, LiDAR, and 3D shape fitting
+  - name: Vision-language models
+    detail: Open-vocabulary recognition and vision-language-action policies for tasks that resist fixed label sets
+  - name: Agentic AI
+    detail: Autonomous tool-using agents with built-in safety, trust evaluation, and risk management
+  - name: Robotic manipulation
+    detail: Custom and soft end effectors, air-assisted occlusion clearing, and contact-safe motion planning
+  - name: Synthetic data
+    detail: Generated training images and annotations that reduce the cost of manual field labeling
+  - name: Energy-aware design
+    detail: Solar-aware task scheduling, efficient onboard compute, and season-long deployment planning
+
+settings: >-
+  Our systems are tested and deployed in orchards, vineyards, greenhouses, forests,
+  wildfire-affected terrain, and row-crop fields. These environments demand robust,
+  field-ready engineering that can handle uneven ground, variable lighting, and
+  unpredictable weather.
+
+energy_commitment: >-
+  We hold every system to the same standard: how much energy does it use, and how much labor and
+  chemical input does it save? Our platforms are designed around renewable power and efficient onboard
+  compute, and we report energy consumption alongside accuracy and throughput in every evaluation.

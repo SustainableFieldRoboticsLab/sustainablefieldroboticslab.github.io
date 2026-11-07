@@ -1,0 +1,82 @@
+# Lab gallery images. Add new images to assets/img/gallery/ and list here.
+# caption: short description shown below image. category groups images on the page.
+
+- image: /assets/img/gallery/king-pollination.jpg
+  caption: King-flower pollination system in a commercial apple orchard
+  category: Pollination & Thinning
+
+- image: /assets/img/gallery/grape-thinning-robot.jpg
+  caption: Grape shoot thinning robot in development
+  category: Pollination & Thinning
+
+- image: /assets/img/gallery/birdclaw-robot.jpg
+  caption: Bird-claw-inspired robot for fruitlet thinning in orchards
+  category: Pollination & Thinning
+
+- image: /assets/img/gallery/birdclaw-indoor-testing.jpg
+  caption: Indoor testing of bird-claw-inspired thinning robot
+  category: Pollination & Thinning
+
+- image: /assets/img/gallery/suction-cup-action.jpg
+  caption: Suction-cup end effector in action for fruitlet thinning
+  category: Pollination & Thinning
+
+- image: /assets/img/gallery/suction-cup-indoor.jpg
+  caption: Indoor evaluation of suction-cup-based end effector
+  category: Pollination & Thinning
+
+- image: /assets/img/gallery/suction-cup-setup.jpg
+  caption: Robotic setup for suction-cup-based fruitlet thinning
+  category: Pollination & Thinning
+
+- image: /assets/img/gallery/scanning-orchards.jpg
+  caption: Scanning orchards with multiple vision systems
+  category: Perception & Sensing
+
+- image: /assets/img/gallery/cherry-orchards-scanning.jpg
+  caption: Early orchard scanning and vision system development
+  category: Perception & Sensing
+
+- image: /assets/img/gallery/scanning-cherry-orchards.jpg
+  caption: Cherry orchard scanning with robotic setup
+  category: Perception & Sensing
+
+- image: /assets/img/gallery/scanning-orchards-harvest.jpg
+  caption: Scanning orchards during harvest season
+  category: Perception & Sensing
+
+- image: /assets/img/gallery/rgbd-lidar-fusion.jpg
+  caption: RGB-D and LiDAR fusion for depth improvement
+  category: Perception & Sensing
+
+- image: /assets/img/gallery/greenhouse-imaging.jpg
+  caption: Greenhouse plant imaging
+  category: Perception & Sensing
+
+- image: /assets/img/gallery/greenhouse-plants.jpg
+  caption: Greenhouse plant imaging and phenotyping
+  category: Perception & Sensing
+
+- image: /assets/img/gallery/harvest-robot-field.jpg
+  caption: Harvest season — robot deployed in the field
+  category: Field Deployment
+
+- image: /assets/img/gallery/loading-robot-truck.jpg
+  caption: Loading robot onto a truck for orchard deployment
+  category: Field Deployment
+
+- image: /assets/img/gallery/measuring-ground-truth.jpg
+  caption: Measuring ground-truth data for early-stage fruitlets
+  category: Field Deployment
+
+- image: /assets/img/gallery/measuring-ground-truth-2.jpg
+  caption: Ground-truth measurement in the field
+  category: Field Deployment
+
+- image: /assets/img/gallery/field-work-1.jpg
+  caption: Field work and data collection
+  category: Field Deployment
+
+- image: /assets/img/gallery/field-work-2.jpg
+  caption: Outdoor field experiments
+  category: Field Deployment

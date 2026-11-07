@@ -1,0 +1,12 @@
+# Code, datasets, and tools. kind: code | dataset | model | tool
+items:
+  - name: SFRL on GitHub
+    kind: code
+    summary: Lab code, simulation assets, and reproducibility instructions will be released here.
+    url: ""
+    status: Coming 2027
+principles:
+  - Every release ships with a license, a README, and a CITATION.cff file.
+  - Datasets get a DOI and a data card describing collection conditions and known limitations.
+  - Hardware designs include safety notes for field and orchard use.
+  - Paper results include the scripts and configs needed to reproduce them.

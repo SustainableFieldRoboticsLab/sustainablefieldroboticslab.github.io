@@ -1,0 +1,14 @@
+{% assign pr = include.pr %}
+<article class="card project" data-status="{{ pr.status }}">
+  {% if pr.image and pr.image != "" %}<img src="{{ pr.image | relative_url }}" alt="{{ pr.title }}" loading="lazy">{% endif %}
+  <p class="status status-{{ pr.status }}"><span aria-hidden="true">●</span> {{ pr.status | capitalize }}</p>
+  <h3>{{ pr.title }}</h3>
+  <p>{{ pr.summary }}</p>
+  <dl class="facts">
+    {% if pr.partners != "" %}<div><dt>Partners</dt><dd>{{ pr.partners }}</dd></div>{% endif %}
+    {% if pr.funding != "" %}<div><dt>Funding</dt><dd>{{ pr.funding }}</dd></div>{% endif %}
+    {% if pr.site != "" %}<div><dt>Field site</dt><dd>{{ pr.site }}</dd></div>{% endif %}
+  </dl>
+  {% if pr.outputs.size > 0 %}<ul class="outputs">{% for o in pr.outputs %}<li>{% if o.url %}<a href="{{ o.url }}">{{ o.text }}</a>{% else %}{{ o.text }}{% endif %}</li>{% endfor %}</ul>{% endif %}
+  <p class="tags">{% for t in pr.tags %}<span class="tag">{{ t }}</span>{% endfor %}</p>
+</article>

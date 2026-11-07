@@ -1,0 +1,63 @@
+# One entry per project. status: active | planned | completed
+# image is optional (e.g. /assets/img/projects/pollination.jpg)
+- title: Robotic king-flower pollination
+  status: active
+  summary: A vision-guided robot that finds king flowers in apple canopies and delivers pollen precisely, reducing dependence on managed bees during unreliable bloom weather.
+  partners: Washington State University, Cornell AgRobotics Lab
+  funding: WSU Commercialization Gap Fund ($50,000, 2025)
+  site: Commercial apple orchards, Washington State
+  outputs:
+    - text: Computers and Electronics in Agriculture (2025)
+      url: https://doi.org/10.1016/j.compag.2025.110158
+    - text: Invention disclosure 24-00076 (WSU)
+  tags: [pollination, manipulation, machine vision]
+  image: /assets/img/projects/pollination.jpg
+
+- title: Robotic green fruit thinning
+  status: active
+  summary: Detecting and sizing immature fruitlets, then removing excess fruit with a soft robotic manipulator so trees carry an optimal crop load.
+  partners: Cornell University
+  funding: Cornell CALS Moonshot Seed Grant, Proposal Development Award ($50,000, 2025-2026)
+  site: Commercial apple orchards
+  outputs:
+    - text: IEEE Access (2024)
+      url: https://doi.org/10.1109/ACCESS.2024.3378261
+    - text: Computers and Electronics in Agriculture (2025)
+      url: https://doi.org/10.1016/j.compag.2024.109697
+  tags: [thinning, soft robotics, YOLO]
+  image: /assets/img/projects/thinning.jpg
+
+- title: Air-assisted occlusion clearing end effector
+  status: active
+  summary: An end effector that uses directed airflow to move leaves out of the camera's view, so vision-guided robots can reach fruit hidden in dense canopies.
+  partners: Cornell University
+  funding: ""
+  site: Tree-fruit orchards
+  outputs:
+    - text: Invention disclosure, Cornell docket 12059
+  tags: [end effector, perception, manipulation]
+  image: /assets/img/projects/occlusion.jpg
+
+- title: Multimodal foundation models for agriculture
+  status: active
+  summary: Benchmarking and adapting vision-language models, multimodal LLMs, and agentic AI so field robots can understand open-ended instructions and unfamiliar scenes.
+  partners: Cornell AgRobotics Lab and international collaborators
+  funding: ""
+  site: Lab and field datasets
+  outputs:
+    - text: IEEE T-ASE review (2025)
+      url: https://doi.org/10.1109/TASE.2025.3612154
+    - text: Information Fusion review (2025)
+      url: https://doi.org/10.1016/j.inffus.2025.103575
+  tags: [VLM, LLM, agentic AI]
+  image: /assets/img/projects/tree-detection.jpg
+
+- title: Solar-aware field robot platform
+  status: planned
+  summary: A shared SFRL platform that plans sensing, computing, and manipulation around available solar energy for season-long autonomous deployment.
+  partners: Open to collaborators
+  funding: Seeking support
+  site: Oregon State University research farms
+  outputs: []
+  tags: [energy, autonomy]
+  image: /assets/img/projects/drone-orchard.jpg

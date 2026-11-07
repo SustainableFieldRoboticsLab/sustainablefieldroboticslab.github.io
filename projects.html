@@ -1,0 +1,19 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+eyebrow: Projects
+lede: Each project pairs a real field problem with partners, a field site, and open outputs.
+description: Current and planned SFRL projects in orchard robotics, pollination, thinning, and foundation models for agriculture.
+---
+<section class="section">
+  <div class="wrap">
+    {% assign groups = "active,planned,completed" | split: "," %}
+    {% for g in groups %}{% assign list = site.data.projects | where: "status", g %}
+      {% if list.size > 0 %}
+      <h2 class="group-h">{{ g | capitalize }}</h2>
+      <div class="grid-2">{% for pr in list %}{% include project-card.html pr=pr %}{% endfor %}</div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,45 @@
+---
+layout: page
+title: Research
+permalink: /research/
+eyebrow: Research
+lede: We build field robots that reduce the energy, labor, and chemicals needed to grow specialty crops.
+description: SFRL research pillars in sustainable autonomy, perception, precision manipulation, and resilient field deployment.
+---
+{% assign r = site.data.research %}
+<section class="section">
+  <div class="wrap">
+    <div class="grid-2">
+      {% for p in r.pillars %}
+      <article class="card pillar pillar-lg">
+        <span class="icon">{% include icon.html name=p.icon %}</span>
+        <h2>{{ p.title }}</h2>
+        <p>{{ p.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="section alt">
+  <div class="wrap two-col">
+    <div>
+      <h2>Field operations</h2>
+      <p>Our primary focus is specialty crops, where much of the work is still done by hand.</p>
+      <ul class="chips">{% for o in r.operations %}<li>{{ o }}</li>{% endfor %}</ul>
+      <h2 class="mt">Where we deploy</h2>
+      <ul class="chips">{% for s in r.settings %}<li>{{ s }}</li>{% endfor %}</ul>
+    </div>
+    <div>
+      <h2>Method stack</h2>
+      <dl class="methods">
+        {% for m in r.methods %}<div><dt>{{ m.name }}</dt><dd>{{ m.detail }}</dd></div>{% endfor %}
+      </dl>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="wrap narrow callout">
+    <h2>Our energy commitment</h2>
+    <p>{{ r.energy_commitment }}</p>
+  </div>
+</section>
