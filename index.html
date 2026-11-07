@@ -24,6 +24,14 @@ title: Home
   </div>
 </section>
 
+{% if lab.hiring %}
+<a class="hiring-banner" href="{{ '/people/#join' | relative_url }}">
+  <span class="hiring-badge">We are hiring</span>
+  <span>MS, PhD students and visiting scholars are encouraged to apply.</span>
+  <span class="hiring-arrow">→</span>
+</a>
+{% endif %}
+
 <section class="stats" aria-label="Lab at a glance">
   <div class="wrap stats-grid">
     {% for s in lab.stats %}<div class="stat"><span class="stat-v">{{ s.value }}</span><span class="stat-l">{{ s.label }}</span></div>{% endfor %}
