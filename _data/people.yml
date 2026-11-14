@@ -58,7 +58,7 @@ advisors:
     title: Professor · Biological and Agricultural Engineering
     affiliation: University of California, Davis
     lab: ""
-    photo: ""
+    photo: /assets/img/people/stavros-vougioukas.jpg
     focus: Agricultural robotics, mechanization, and automation for specialty crops
     link: https://faculty.engineering.ucdavis.edu/vougioukas/
   - name: William J. Beksi
