@@ -153,6 +153,11 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 .avatar { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; margin-bottom: 14px; flex: none; }
 .avatar-initials, .avatar-plus { display: inline-flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--forest), var(--forest-2)); color: #fff; font-family: var(--serif); font-size: 2.8rem; font-weight: 600; }
 .avatar-plus { background: var(--alt); color: var(--forest-2); border: 2px dashed var(--line); }
+.avatar-flip { position: relative; display: block; width: 160px; height: 160px; margin-bottom: 14px; }
+.avatar-flip .avatar { position: absolute; inset: 0; margin: 0; animation: flip-fade 6s ease-in-out infinite; }
+.avatar-flip .avatar:last-child { animation-delay: 3s; opacity: 0; }
+@keyframes flip-fade { 0%,40% { opacity: 1; } 50%,90% { opacity: 0; } 100% { opacity: 1; } }
+.person .avatar-flip { margin-left: auto; margin-right: auto; }
 .person { text-align: center; }
 .person .avatar, .person .avatar-initials, .person .avatar-plus { margin-left: auto; margin-right: auto; }
 .person h3 { margin-bottom: .2rem; }

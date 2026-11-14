@@ -45,14 +45,6 @@ advisors:
     photo: /assets/img/people/manoj-karkee.jpg
     focus: Strategic mentorship · joint research · student co-advising
     link: https://agrobotics.cals.cornell.edu/
-  - name: William J. Beksi
-    role: Senior Faculty Advisor
-    title: Associate Professor · Computer Science
-    affiliation: University of Texas at Dallas
-    lab: PRISM Laboratory
-    photo: /assets/img/people/william-beksi.jpg
-    focus: Robot perception · learning · autonomous systems
-    link: https://www.utdallas.edu/~wjbeksi/
   - name: Matthew D. Whiting
     role: Senior Faculty Advisor
     title: Professor · Horticulture
@@ -61,6 +53,38 @@ advisors:
     photo: /assets/img/people/matthew-whiting.jpg
     focus: Tree-fruit horticulture · orchard trials · grower relevance
     link: ""
+  - name: Stavros G. Vougioukas
+    role: Senior Faculty Advisor
+    title: Professor · Biological and Agricultural Engineering
+    affiliation: University of California, Davis
+    lab: ""
+    photo: ""
+    focus: Agricultural robotics, mechanization, and automation for specialty crops
+    link: https://faculty.engineering.ucdavis.edu/vougioukas/
+  - name: William J. Beksi
+    role: Senior Faculty Advisor
+    title: Associate Professor · Computer Science
+    affiliation: University of Texas at Dallas
+    lab: PRISM Laboratory
+    photo: /assets/img/people/william-beksi.jpg
+    focus: Robot perception · learning · autonomous systems
+    link: https://www.utdallas.edu/~wjbeksi/
+  - name: Lirong Xiang
+    role: Affiliated Faculty Collaborator
+    title: Assistant Professor · Biological and Environmental Engineering
+    affiliation: Cornell University
+    lab: ""
+    photo: /assets/img/people/lirong-xiang.jpg
+    focus: Smart cyber-physical systems, robotics, and machine vision for agricultural automation
+    link: https://cals.cornell.edu/people/lirong-xiang
+  - name: Manisha Parajuli
+    role: Affiliated Faculty Collaborator
+    title: Assistant Professor · Forestry
+    affiliation: Kentucky State University
+    lab: Cooperative Extension
+    photo: /assets/img/people/manisha-parajuli.jpg
+    focus: Forestry · remote sensing · precision agriculture
+    link: https://www.kysu.edu/directory/faculty-staff/manisha-parajuli.php
   - name: Martin Churuvija
     role: Affiliated Faculty Collaborator
     title: Assistant Professor · Smart Machine and Robotics Systems Engineering
@@ -77,14 +101,6 @@ advisors:
     photo: /assets/img/people/ramesh-bist.jpg
     focus: Agricultural intelligence and robotics
     link: https://bae.ncsu.edu/people/ramesh-bist/
-  - name: Manisha Parajuli
-    role: Affiliated Faculty Collaborator
-    title: Assistant Professor · Forestry
-    affiliation: Kentucky State University
-    lab: Cooperative Extension
-    photo: /assets/img/people/manisha-parajuli.jpg
-    focus: Forestry · remote sensing · precision agriculture
-    link: https://www.kysu.edu/directory/faculty-staff/manisha-parajuli.php
   - name: Konstantinos I. Roumeliotis
     role: Affiliated Faculty Collaborator
     title: Adjunct Professor & Postdoctoral Researcher
@@ -93,6 +109,15 @@ advisors:
     photo: /assets/img/people/konstantinos-roumeliotis.jpg
     focus: Applied AI · deep learning · multimodal learning · agentic AI
     link: ""
+  - name: Seyedali Mirjalili
+    role: Senior Scientific Advisor
+    title: Professor · Director, Center for AI Research and Optimization
+    affiliation: Torrens University Australia
+    lab: ""
+    photo: /assets/img/people/seyedali-mirjalili-1.jpg
+    photo2: /assets/img/people/seyedali-mirjalili-2.jpg
+    focus: Nature-inspired optimization, evolutionary computation, and artificial intelligence
+    link: https://research.torrens.edu.au/en/persons/seyedali-mirjalili/
 
 join:
   positions: [MS, PhD, Postdoc, Visiting Scholar]

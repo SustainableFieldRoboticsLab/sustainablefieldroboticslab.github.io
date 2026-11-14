@@ -23,7 +23,7 @@ mission_more: >-
 stats:
   - value: "20+"
     label: Peer-reviewed journal papers
-  - value: "5,500+"
+  - value: "5,800+"
     label: Citations
   - value: "3"
     label: Invention disclosures
