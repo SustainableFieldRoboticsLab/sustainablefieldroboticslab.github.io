@@ -42,6 +42,16 @@ description: The SFRL team, advisory network, partner labs, and open positions.
         <p class="tags">{% for k in m.keywords %}<span class="tag">{{ k }}</span>{% endfor %}</p>
       </article>
       {% endfor %}
+      <article class="card person network-growing">
+        <div class="grow-anim" aria-hidden="true">
+          <span class="ring"></span>
+          <span class="ring"></span>
+          <span class="ring"></span>
+          <span class="node"></span>
+        </div>
+        <h3>Our network is growing</h3>
+        <p class="muted">New collaborators and partner labs joining regularly</p>
+      </article>
     </div>
 
     <div class="section-head mt"><h2 class="group-h">Advisory network & partner labs</h2><span class="muted">External faculty retain independent labs and appointments</span></div>
@@ -55,16 +65,6 @@ description: The SFRL team, advisory network, partner labs, and open positions.
         <p>{{ a.focus }}</p>
       </article>
       {% endfor %}
-      <article class="card person network-growing">
-        <div class="grow-anim" aria-hidden="true">
-          <span class="ring"></span>
-          <span class="ring"></span>
-          <span class="ring"></span>
-          <span class="node"></span>
-        </div>
-        <h3>Our network is growing</h3>
-        <p class="muted">New collaborators and partner labs joining regularly</p>
-      </article>
     </div>
 
     {% if site.data.alumni.size > 0 %}
