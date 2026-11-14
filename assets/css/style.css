@@ -158,6 +158,14 @@ ul.plain { list-style: none; padding: 0; margin: 0; }
 .avatar-flip .avatar:last-child { animation-delay: 3s; opacity: 0; }
 @keyframes flip-fade { 0%,40% { opacity: 1; } 50%,90% { opacity: 0; } 100% { opacity: 1; } }
 .person .avatar-flip { margin-left: auto; margin-right: auto; }
+.network-growing { display: flex; flex-direction: column; align-items: center; justify-content: center; border-style: dashed; border-color: var(--forest-2); }
+.grow-anim { position: relative; width: 120px; height: 120px; margin-bottom: 14px; }
+.grow-anim .node { position: absolute; top: 50%; left: 50%; width: 14px; height: 14px; margin: -7px; background: var(--forest-2); border-radius: 50%; }
+.grow-anim .ring { position: absolute; inset: 0; border: 2px solid var(--forest-2); border-radius: 50%; opacity: 0; animation: grow-ring 3s ease-out infinite; }
+.grow-anim .ring:nth-child(2) { animation-delay: 1s; }
+.grow-anim .ring:nth-child(3) { animation-delay: 2s; }
+@keyframes grow-ring { 0% { transform: scale(.15); opacity: .5; } 100% { transform: scale(1); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .grow-anim .ring { animation: none; opacity: .15; transform: scale(1); } }
 .person { text-align: center; }
 .person .avatar, .person .avatar-initials, .person .avatar-plus { margin-left: auto; margin-right: auto; }
 .person h3 { margin-bottom: .2rem; }
